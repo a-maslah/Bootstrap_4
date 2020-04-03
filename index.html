@@ -32,10 +32,17 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">Contact</a>
                     </li>
+                    
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                    <div class="input-group flex-nowrap">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping"><span class="fa fa-search form-control-feedback"></span></span>
+  </div>
+  <input type="text" class="form-control"class="form-control mr-sm-2" placeholder="Search"   aria-label="Search"aria-describedby="addon-wrapping">
+</div>
+
+                    <!--<button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>==-->
                   </form>
                 </div>
               </nav>
@@ -45,17 +52,22 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/Informatique-3.jpg" alt="First slide">
+                    <img class="d-block w-100" src="images/image1.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
                     <img class="d-block w-100" src="images/image2.jfif" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/1260125.webp" alt="Third slide">
+                    <img class="d-block w-100" src="images/image3.webp" alt="Third slide">
                   </div>
+                  <div class="carousel-item">
+                        <img class="d-block w-100" src="images/images4.jfif" alt="4 slide">
+                      </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -65,13 +77,68 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
-
-
-
+            </div>
   </div>      
-         
-       
-
+  <br>
+  
+  <section class="team-section section">
+    <div class="container">
+        
+      
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member">
+                    <img src="images/carte1.jpg" alt="gates"  height="200px"class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>BILL GATES</h4>
+                        <p>Magnat des affaires américain, développeur de logiciels, investisseur et philanthrope. et c'est le co-fondateur de Microsoft Corporation.</p>
+                        <div class="collapse contents text-center" id="collapseExample1">
+                            Il a fondé en 1975, à l'âge de 20 ans, avec son ami Paul Allen,
+                            la société de logiciels de micro-informatique Micro-Soft (rebaptisée depuis Microsoft). 
+                            Son entreprise acheta le système d'exploitation QDOS pour en faire le MS-DOS,
+                            puis conçut le système d'exploitation Windows, tous deux en situation de quasi-monopole mondial.
+                        </div>
+                        <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-main">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member">
+                    <img src="images/carte2.jpg" alt="steve jobs" width="400px" height="200px"  class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>STEVE JOBS</h4>
+                        <p>un entrepreneur et inventeur américain, souvent qualifié de visionnaire1, et une figure majeure de l'électronique grand public</p>
+                        <div class="collapse contents text-center" id="collapseExample2">
+                            notamment pionnier de l'avènement de l'ordinateur personnel, du baladeur numérique,
+                             du smartphone et de la tablette tactile. Cofondateur, 
+                            directeur général et président du conseil d'administration de l'entreprise multinationale américaine Apple Inc.
+                        </div>
+                        <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-main">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member">
+                    <img src="images/carte3.jfif" alt="mark"  width="400px" height="200px" class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>Mark Zuckerberg</h4>
+                        <p> un informaticien et chef d'entreprise américain. Il est le cofondateur du site web de réseau social Facebook  le président-directeur général.</p>
+                        <div class="collapse contents text-center" id="collapseExample3">
+                            Facebook a été créé en 2004 par Zuckerberg et ses camarades étudiants de l'université Harvard, 
+                            Selon le magazine Forbes, sa fortune personnelle est estimée 
+                            à 74,1 milliards de dollars américains en 2019.
+                             Il est donc placé huitième sur la liste des milliardaires du monde de Forbes2
+                        </div>
+                        <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-main">read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+    </section>
+            
 </body>
 </html>

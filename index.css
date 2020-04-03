@@ -9,7 +9,8 @@ background-color:rgba(162, 175, 179, 0.774);
 
 }
 .nav-link {
-    padding-right:30px;
+    padding-right:50px;
+    margin-right:20px;
 }
 
 .carousel-inner{
